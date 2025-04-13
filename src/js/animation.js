@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	const sendFormBtn = document.getElementById("sendFormBtn");
 	const error = document.getElementById("error");
 	const success = document.getElementById("success");
-	const form = document.getElementById("myForm");
 
 	let isSubmitActive = false;
 
@@ -35,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		success.classList.add("show");
 		setTimeout(() => {
 			success.classList.remove("show");
-			form.reset();
+
 			submitToggle.classList.remove("active");
 			isSubmitActive = false;
 		}, 3000);
