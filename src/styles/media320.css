@@ -1,1 +1,132 @@
-/*# sourceMappingURL=media320.css.map */
+@media screen and (min-width: 300px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 30px;
+    gap: unset;
+    justify-content: space-between;
+  }
+  .about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px 20px 0 30px;
+  }
+  .footer-socialmedia {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .footer-button {
+    padding: 10px 15px 10px 15px;
+  }
+  .footer-block-content,
+  .order-content-miniblock {
+    padding: unset;
+  }
+  .order {
+    padding: 30px 30px 30px 20px;
+  }
+  .lady-bgr {
+    display: none;
+  }
+  .about-us-bgr-img > svg {
+    width: 100%;
+    height: 100%;
+  }
+  .order-submit-btn {
+    height: auto;
+    padding: 15px 10px 15px 10px;
+  }
+  .footer-socialmedia-links > svg {
+    width: 25px;
+    height: 25px;
+  }
+  .main-content-bl {
+    margin: unset;
+    padding: 30px 30px 10px 30px;
+  }
+  .header-block {
+    display: flex;
+    gap: 15px;
+  }
+  .abou-us-logo > svg {
+    width: 40px;
+    height: 30px;
+  }
+  .about-us-block {
+    gap: 15px;
+  }
+  .about-us-content-block {
+    gap: 40px;
+  }
+  .about-us-button {
+    padding: 15px 20px 15px 20px;
+  }
+  .footer-links {
+    margin-top: 23px;
+    gap: 10px;
+  }
+  .footer-block-content {
+    gap: 20px;
+    padding: 0 20px 0 30px;
+  }
+  .footer-block {
+    padding: 20px 0;
+  }
+  .order-content-block-heading {
+    margin-bottom: 25px;
+  }
+  .order-content-block {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px;
+  }
+  .svg-wrapper > svg {
+    width: 15px;
+    height: 15px;
+  }
+  .svg-wrapper {
+    padding: 15px 0;
+  }
+  .order-input {
+    padding: 10px 15px;
+    height: auto;
+  }
+  .inputs-block {
+    gap: 10px;
+  }
+  .main-button {
+    padding: 10px 15px 10px 15px;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+  }
+  .main-content-miniblock {
+    gap: 10px;
+  }
+  .main-content {
+    background: rgb(34, 34, 34);
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .image-block {
+    display: none;
+  }
+  .main-heading {
+    margin-bottom: 30px;
+  }
+  .main-block {
+    gap: 24px;
+  }
+  .main-svg {
+    width: 25px;
+    height: 25px;
+  }
+  .main-content-block {
+    height: auto;
+  }
+}/*# sourceMappingURL=media320.css.map */

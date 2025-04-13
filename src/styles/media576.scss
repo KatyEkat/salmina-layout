@@ -1,0 +1,61 @@
+@media screen and (min-width: 576px) {
+
+	.header {
+		padding: 5px 30px;
+	}
+    
+	.main-content {
+		background: rgb(34, 34, 34);
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		align-items: start;
+		position: relative;
+		gap: 15px;
+	}
+
+	.main-heading {
+		margin-bottom: 40px;
+	}
+
+	.main-content-block {
+		gap: 5px;
+		padding: 0 5px 0 0;
+	}
+
+	.main-content-bl {
+		margin: unset;
+		padding: 30px 5px 10px 30px;
+	}
+
+	.main-svg {
+		width: 30px;
+		height: 30px;
+	}
+
+	.about-us {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 20px;
+		padding: 30px 20px 0 30px;
+	}
+
+	.about-us-bgr-img-tablet {
+		display: none;
+	}
+
+	.image-block {
+		display: flex;
+		position: relative;
+
+		top: 0;
+	}
+
+	.footer-button {
+		padding: 15px 20px 15px 20px;
+	}
+
+	.footer-socialmedia-links > svg {
+		width: 30px;
+		height: 30px;
+	}
+}
