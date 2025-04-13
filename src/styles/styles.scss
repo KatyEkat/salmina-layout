@@ -130,8 +130,6 @@
 		position: relative;
 		gap: 40px;
 
-		// max-height: 913px;
-
 		&-miniblock {
 			display: flex;
 			flex-direction: column;
@@ -196,10 +194,6 @@
 }
 
 .image-block {
-	// position: relative;
-	// // top: -55px;
-	// top: -88px;
-
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -416,18 +410,9 @@
 	text-align: left;
 }
 
-// .grr {
-// 	background: rgb(34, 34, 34);
-// 	display: grid;
-// 	grid-template-columns: 1fr 1fr;
-// 	align-items: start;
-// 	gap: 40px;
-// }
-
 .lady-bgr {
 	width: 100%;
 	height: 100%;
-	// display: flex;
 }
 
 .error {
