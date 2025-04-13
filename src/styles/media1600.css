@@ -362,7 +362,7 @@
     padding: 10px 15px;
     border-radius: 5px;
     position: fixed;
-    top: 10px;
+    top: 150px;
     right: 10px;
     opacity: 0;
     pointer-events: none;
@@ -370,7 +370,8 @@
     z-index: 9999999;
   }
   .error.show {
-    opacity: 1;
+    opacity: 2;
+    z-index: 99999999999;
   }
   .message {
     font-family: Arial;
@@ -381,7 +382,7 @@
     padding: 10px 15px;
     border-radius: 5px;
     position: fixed;
-    top: 10px;
+    top: 150px;
     right: 10px;
     opacity: 0;
     pointer-events: none;
